@@ -5,4 +5,4 @@ WORKDIR /app
 COPY . /app
 RUN python -m pip install --no-cache-dir pillow numpy requests
 # CLI worker: jobs are explicitly invoked; no always-on web process.
-CMD ["python", "scripts/salty_one_shot_transcribe.py"]
+CMD ["python", "-c", "print('Salty Saffa editor ready; no background job.')"]
