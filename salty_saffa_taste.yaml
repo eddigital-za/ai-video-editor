@@ -1,0 +1,26 @@
+# Salty Saffa Episode 001 production style
+captions:
+  enabled: true
+  font: "DejaVuSans-Bold"
+  case: "upper"
+  words_per_line: 3
+  position: "lower"
+  text_color: "#FFFFFF"
+  outline_color: "#000000"
+  outline_px: 6
+  highlight: false
+cut:
+  remove_filler: false
+  aggressiveness: "gentle"
+  remove_silences_over_s: 30
+  keep_peaks: true
+color:
+  grade: "none"
+broll:
+  enabled: false
+  audio: "silent"
+shorts:
+  enabled: false
+output:
+  resolution: "match"
+  fps: "match"
